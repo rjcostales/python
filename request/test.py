@@ -19,4 +19,6 @@ params = {
 
 response = requests.get(url, params,)
 
-print(response.content.decode('utf-8'))
+data = response.content.decode('utf-8')
+
+print(len(data.split('\n')))
