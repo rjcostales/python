@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 print("0:")
 for i in range(1,101):
     print("%i:" % i, sep='', end='')
