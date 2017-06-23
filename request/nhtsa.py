@@ -3,8 +3,8 @@ from json import loads
 from urllib.request import urlopen
 
 apiUrl = "http://www.nhtsa.gov/webapi/api/SafetyRatings"
-# apiParam = "/ModelYear/2016/Make/Ford/Model/Mustang"
-apiParam = '/VehicleId/11570'
+# apiParam = "/ModelYear/2017/Make/Hyundai/Model/Tucson/"
+apiParam = '/VehicleId/11011'
 outputFormat = "?format=json"
 
 # Combine all three variables to make up the complete request URL
