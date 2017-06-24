@@ -1,5 +1,6 @@
 import requests
 
+## info
 url = 'http://www.google.com/finance/info'
 
 params = {'q': 'AAPL'}
@@ -8,6 +9,8 @@ response = requests.get(url, params,)
 
 print(response.content.decode('utf-8'))
 
+
+## historical
 url = 'http://www.google.com/finance/historical'
 
 params = {
@@ -19,4 +22,6 @@ params = {
 
 response = requests.get(url, params,)
 
-print(response.content.decode('utf-8'))
+data = response.content.decode('utf-8')
+print(data)
+print(len(data.split('\n')))
