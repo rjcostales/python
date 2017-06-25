@@ -1,6 +1,6 @@
 import random
 
-f = open("winnums-text.txt", "r")
+f = open("winnums-text.json", "r")
 
 print
 f.readline()
