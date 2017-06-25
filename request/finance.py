@@ -17,8 +17,9 @@ params = {
     'output': 'csv'
 }
 
-response = requests.get(url, params, )
+response = requests.get(url, params)
 
 data = response.content.decode('utf-8')
 
+print(data)
 print(len(data.split('\n')))
