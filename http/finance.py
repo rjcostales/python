@@ -11,6 +11,8 @@ data = response.content.decode('utf-8')[4:]
 
 print(data)
 
+exit()
+
 ## historical
 url = 'http://www.google.com/finance/historical'
 
