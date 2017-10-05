@@ -2,6 +2,8 @@
 
 import tweepy
 
+from keys import ACCOUNT, API_KEY, API_SECRET, TOKEN_KEY, TOKEN_SECRET
+
 
 def print_tweet(tweet):
     print("%s\t%s\t%s" %
@@ -96,8 +98,6 @@ def remove_from_list(lid, users):
         except:
             print(user)
 
-
-from keys import ACCOUNT, API_KEY, API_SECRET, TOKEN_KEY, TOKEN_SECRET
 
 auth = tweepy.OAuthHandler(API_KEY, API_SECRET)
 auth.set_access_token(TOKEN_KEY, TOKEN_SECRET)

@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 import tweepy
 
+from keys import API_KEY, API_SECRET, TOKEN_KEY, TOKEN_SECRET
+
 
 def print_tweet(tweet):
     out = "%i\t%s\t%s" % \
@@ -31,8 +33,6 @@ def print_user(user):
 
 # for id in [738992657163161601, 738991142818058240, 738989883012743168]:
 #     api.destroy_status(id)
-
-from keys import API_KEY, API_SECRET, TOKEN_KEY, TOKEN_SECRET
 
 auth = tweepy.OAuthHandler(API_KEY, API_SECRET)
 auth.set_access_token(TOKEN_KEY, TOKEN_SECRET)

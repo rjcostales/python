@@ -31,7 +31,7 @@ statuses = twitter.statuses.user_timeline(screen_name="@MaesterHacker")
 print_statuses(statuses)
 
 print('-----')
-since = 740000000000000000
+since = 800000000000000000
 
 tweets = twitter.search.tweets(q="#RaspberryPi", since=since, count=500, lang="en")
 print_statuses(tweets['statuses'])
