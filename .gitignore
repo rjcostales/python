@@ -99,6 +99,5 @@ ENV/
 .ropeproject
 .DS_Store
 
-__pycache__/
 *.tsv
 
