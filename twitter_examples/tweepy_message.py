@@ -3,7 +3,8 @@ import pprint
 
 import tweepy
 
-from keys1 import API_KEY, API_SECRET, TOKEN_KEY, TOKEN_SECRET
+from keys import API_KEY, API_SECRET, TOKEN_KEY, TOKEN_SECRET
+
 
 auth = tweepy.OAuthHandler(API_KEY, API_SECRET)
 auth.set_access_token(TOKEN_KEY, TOKEN_SECRET)

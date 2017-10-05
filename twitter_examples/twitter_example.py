@@ -4,6 +4,7 @@ from twitter import Twitter, OAuth
 
 from keys import TOKEN_KEY, TOKEN_SECRET, API_KEY, API_SECRET
 
+
 oauth = OAuth(TOKEN_KEY, TOKEN_SECRET, API_KEY, API_SECRET)
 twitter = Twitter(auth=oauth)
 
