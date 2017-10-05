@@ -33,5 +33,5 @@ auth.set_access_token(TOKEN_KEY, TOKEN_SECRET)
 api = tweepy.API(auth)
 
 argv = sys.argv
-user = argv[1]
+user = 'rjcostales'
 user_timeline(user)
