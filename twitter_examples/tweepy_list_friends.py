@@ -2,9 +2,12 @@
 
 import tweepy
 
+from keys import ACCOUNT, API_KEY, API_SECRET, TOKEN_KEY, TOKEN_SECRET
+
 
 def print_user(user):
     print("%-20i%-20s%-20s" % (user.id, user.screen_name, user.name))
+
 
 def list_friends():
     ids = []
@@ -14,8 +17,6 @@ def list_friends():
         ids.append(friend.id)
     return ids
 
-
-from keys import ACCOUNT, API_KEY, API_SECRET, TOKEN_KEY, TOKEN_SECRET
 
 auth = tweepy.OAuthHandler(API_KEY, API_SECRET)
 auth.set_access_token(TOKEN_KEY, TOKEN_SECRET)
