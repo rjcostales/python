@@ -19,5 +19,6 @@ def roll2():
     return arr
 
 
-print(roll3())
-print(roll2())
+if __name__ == "__main__":
+    print(roll3())
+    print(roll2())
