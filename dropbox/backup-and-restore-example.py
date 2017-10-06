@@ -8,11 +8,11 @@ import sys
 import dropbox
 from dropbox.exceptions import ApiError, AuthError
 from dropbox.files import WriteMode
+from keys import TOKEN
 
 # Add OAuth2 access token here.
 # You can generate one for yourself in the App Console.
 # See <https://blogs.dropbox.com/developers/2014/05/generate-an-access-token-for-your-own-account/>
-TOKEN = 'j66Y-EwgnsoAAAAAAAAgTl0tzkqcfL8F6Yx7iZ1xdRtsXKkxlEcCaHOQ0tKv1hxg'
 
 LOCALFILE = 'my-file.txt'
 BACKUPPATH = '/my-file-backup.txt'
@@ -26,7 +26,7 @@ def backup():
         try:
             dbx.files_upload(f.read(), BACKUPPATH, mode=WriteMode('overwrite'))
         except ApiError as err:
-            # This checks for the specific error where a user doesn't have enough Dropbox space quota to upload this file
+            # This checks for the specific error where user doesn't have enough Dropbox space quota to upload this file
             if (err.error.is_path() and
                     err.error.get_path().error.is_insufficient_space()):
                 sys.exit("ERROR: Cannot back up; insufficient space.")
@@ -73,13 +73,13 @@ def select_revision():
 
 if __name__ == '__main__':
     # Check for an access token
-    if (len(TOKEN) == 0):
+    if len(TOKEN) == 0:
         sys.exit("ERROR: Looks like you didn't add your access token. "
                  "Open up backup-and-restore-dropbox-api-examples.py.py in a text editor and "
                  "paste in your token in line 14.")
 
     # Create an instance of a Dropbox class, which can make requests to the API.
-    print("Creating a Dropbox object...")
+    print('Creating a Dropbox object...')
     dbx = dropbox.Dropbox(TOKEN)
 
     # Check that the access token is valid

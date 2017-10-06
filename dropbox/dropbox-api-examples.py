@@ -3,11 +3,11 @@ import sys
 import dropbox
 from dropbox.exceptions import AuthError
 
-TOKEN = "j66Y-EwgnsoAAAAAAAAgTl0tzkqcfL8F6Yx7iZ1xdRtsXKkxlEcCaHOQ0tKv1hxg"
+from keys import TOKEN
 
 if __name__ == '__main__':
     # Check for an access token
-    if (len(TOKEN) == 0):
+    if len(TOKEN) == 0:
         sys.exit("ERROR: Looks like you didn't add your access token. "
                  "Open up backup-and-restore-dropbox-api-examples.py.py in a text editor and "
                  "paste in your token in line 14.")
