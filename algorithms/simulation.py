@@ -16,19 +16,20 @@ class Human:
         return str(self.birth) + " " + self.sex
 
 
-males = females = 0
-world = []
+if __name__ == "__main__":
+    males = females = 0
+    world = []
 
-for year in range(2000):
-    person = Human(year)
+    for year in range(2000):
+        person = Human(year)
 
-    if person.sex == 'm':
-        males += 1
-    else:
-        females += 1
+        if person.sex == 'm':
+            males += 1
+        else:
+            females += 1
 
-    print(person)
-    world.append(person)
+        print(person)
+        world.append(person)
 
-print(males, females)
-print(len(world))
+    print(males, females)
+    print(len(world))

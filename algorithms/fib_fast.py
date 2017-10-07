@@ -11,8 +11,8 @@ def fibonacci(n):
         return sequence[n]
 
 
-start = time.time()
-
-f = fibonacci(200)
-stop = time.time()
-print(f, stop - start)
+if __name__ == "__main__":
+    start = time.time()
+    f = fibonacci(100)
+    stop = time.time()
+    print(f, stop - start)

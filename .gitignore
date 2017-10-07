@@ -100,4 +100,8 @@ ENV/
 .DS_Store
 
 *.tsv
+*.txt
+keys*.py
 
+app/static/
+app/templates/
