@@ -20,13 +20,16 @@ if __name__ == '__main__':
     try:
         dbx.users_get_current_account()
 
+        print("\nFiles List Folder...")
         for entry in dbx.files_list_folder("/Apps/O'Reilly Media").entries:
             print(entry.name)
 
-        # for entry in dbx.files_list_revisions("/my-file-backup.txt").entries:
-        #     print(entry)
+        print("\nFiles List Revisions...")
+        for entry in dbx.files_list_revisions("/Apps/O'Reilly Media/Web Scraping with Python/Web Scraping with Python.pdf").entries:
+            print(entry)
 
-        for result in dbx.files_search("/Apps", "Java").matches:
+        print("\nFiles Search...")
+        for result in dbx.files_search("/Apps", "Python").matches:
             print(result.metadata.name)
 
     except AuthError as err:
