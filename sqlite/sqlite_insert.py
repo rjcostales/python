@@ -1,12 +1,12 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-import sqlite3 as lite
+import sqlite3
 
-con = lite.connect('test.db')
+connection = sqlite3.connect('test.db')
 
-with con:
-    cur = con.cursor()
+with connection:
+    cur = connection.cursor()
     cur.execute("CREATE TABLE cars(Id INT, Name TEXT, Price INT)")
     cur.execute("INSERT INTO cars VALUES(1,'Audi',52642)")
     cur.execute("INSERT INTO cars VALUES(2,'Mercedes',57127)")
