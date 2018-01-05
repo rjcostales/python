@@ -1,27 +1,27 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-import sqlite3 as lite
+import sqlite3
 import sys
 
-con = None
+connection = None
 
 try:
-    con = lite.connect('test.db')
+    connection = sqlite3.connect('test.db')
 
-    cur = con.cursor()
+    cur = connection.cursor()
     cur.execute('SELECT SQLITE_VERSION()')
 
     data = cur.fetchone()
 
     print("SQLite version: %s" % data)
 
-except lite.Error as e:
+except sqlite3.Error as e:
 
     print("Error %s:" % e.args[0])
     sys.exit(1)
 
 finally:
 
-    if con:
-        con.close()
+    if connection:
+        connection.close()
