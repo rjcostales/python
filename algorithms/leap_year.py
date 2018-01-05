@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 
-for y in range(0, 2001):
-
+for y in range(0, 3001):
     if y % 400 == 0:
         print(y)
     elif (y % 100 != 0) & (y % 4 == 0):
