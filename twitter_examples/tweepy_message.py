@@ -2,7 +2,6 @@
 import pprint
 
 import tweepy
-
 from keys import API_KEY, API_SECRET, TOKEN_KEY, TOKEN_SECRET
 
 auth = tweepy.OAuthHandler(API_KEY, API_SECRET)

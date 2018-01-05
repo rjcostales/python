@@ -91,7 +91,7 @@ def main():
                 mtime_dt = datetime.datetime(*time.gmtime(mtime)[:6])
                 size = os.path.getsize(fullname)
                 if (isinstance(md, dropbox.files.FileMetadata) and
-                            mtime_dt == md.client_modified and size == md.size):
+                        mtime_dt == md.client_modified and size == md.size):
                     print(name, 'is already synced [stats match]')
                 else:
                     print(name, 'exists with different stats, downloading')
@@ -176,8 +176,8 @@ def upload(dbx, fullname, folder, subfolder, name, overwrite=False):
     while '//' in path:
         path = path.replace('//', '/')
     mode = (dropbox.files.WriteMode.overwrite
-            if overwrite
-            else dropbox.files.WriteMode.add)
+    if overwrite
+    else dropbox.files.WriteMode.add)
     mtime = os.path.getmtime(fullname)
     with open(fullname, 'rb') as f:
         data = f.read()

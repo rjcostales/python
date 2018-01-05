@@ -2,7 +2,6 @@ import sys
 
 import dropbox
 from dropbox.exceptions import AuthError
-
 from keys import TOKEN
 
 if __name__ == '__main__':
@@ -25,7 +24,8 @@ if __name__ == '__main__':
             print(entry.name)
 
         print("\nFiles List Revisions...")
-        for entry in dbx.files_list_revisions("/Apps/O'Reilly Media/Web Scraping with Python/Web Scraping with Python.pdf").entries:
+        for entry in dbx.files_list_revisions(
+                "/Apps/O'Reilly Media/Web Scraping with Python/Web Scraping with Python.pdf").entries:
             print(entry)
 
         print("\nFiles Search...")
