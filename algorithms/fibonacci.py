@@ -2,9 +2,9 @@
 import time
 
 
-def fibonacci(n):
+def f(n):
     if n > 1:
-        return fibonacci(n - 1) + fibonacci(n - 2)
+        return f(n - 1) + f(n - 2)
     if n == 1:
         return 1
     if n == 0:
@@ -12,7 +12,8 @@ def fibonacci(n):
 
 
 if __name__ == "__main__":
+	n = 40
     start = time.time()
-    print(fibonacci(100))
+    print(f(n))
     end = time.time()
     print(end - start)
