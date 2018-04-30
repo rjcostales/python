@@ -12,8 +12,8 @@ def fibonacci(n):
 
 
 if __name__ == "__main__":
-    n = 100
+    nn = 100
     start = time.time()
-    f = fibonacci(n)
+    ff = fibonacci(nn)
     stop = time.time()
-    print(f, stop - start)
+    print(ff, stop - start)

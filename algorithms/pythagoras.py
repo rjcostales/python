@@ -20,9 +20,9 @@ def is_pythagoras(a, b):
 
 if __name__ == "__main__":
 
-    for a in range(1, limit):
-        for b in range(a, limit):
-            ang = is_pythagoras(a, b)
+    for aa in range(1, limit):
+        for bb in range(aa, limit):
+            ang = is_pythagoras(aa, bb)
 
             if ang not in solutions:
                 solutions.append(ang)

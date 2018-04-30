@@ -10,8 +10,9 @@ def fibonacci(n):
 
 
 if __name__ == "__main__":
-    f = 40
+    nn = 40
     start = time.time()
-    print(fibonacci(f))
+    ff = fibonacci(nn)
     end = time.time()
+    print(ff)
     print(end - start)
