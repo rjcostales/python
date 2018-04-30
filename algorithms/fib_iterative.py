@@ -10,7 +10,8 @@ def fibonacci(n):
 
 
 if __name__ == "__main__":
+    nn = 100
     start = time.time()
-    f = fibonacci(100)
+    ff = fibonacci(nn)
     stop = time.time()
-    print(f, stop - start)
+    print(ff, stop - start)
