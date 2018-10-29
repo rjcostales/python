@@ -1,6 +1,9 @@
 #!/usr/bin/env python
+import ssl
 from html.parser import HTMLParser
-from urllib.request import urlopen
+from urllib.request import Request, urlopen
+
+ssl._create_default_https_context = ssl._create_unverified_context
 
 
 class Parser(HTMLParser):
@@ -31,7 +34,15 @@ class Parser(HTMLParser):
 
 parser = Parser()
 
-url = 'http://revision3.com/haktip/feed/MP4-hd30'
+headers = {
+    'Connection': 'keep-alive',
+    'User-Agent': 'Mozilla/5.0',
+    'Accept': 'image/jpg,image/*,*/*',
+    'Accept-Encoding': 'gzip,deflate,br',
+    'Accept-Language': 'en-US,en'
+}
+url = "https://www.raspberrypi.org"
+req = Request(url, headers=headers)
 site = urlopen(url)
 html = site.read().strip()
 print(html)
