@@ -105,3 +105,9 @@ keys*.py
 
 app/static/
 app/templates/
+
+# my ignore files
+*.gif
+*.jpg
+*.png
+

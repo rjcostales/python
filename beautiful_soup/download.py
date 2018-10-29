@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
 import re
+import ssl
 from time import sleep
 from urllib.request import Request, urlopen
 
 import requests
 from bs4 import BeautifulSoup
+
+ssl._create_default_https_context = ssl._create_unverified_context
 
 
 def get_image(url):
@@ -38,7 +41,7 @@ def process_page(url):
         name = re.sub(r'.*/', '', link)
         img = get_image(link)
         if img is not None:
-            with open('jpgs/' +name, 'wb') as jpg:
+            with open('./' + name, 'wb') as jpg:
                 jpg.write(img.read())
                 jpg.close()
             print(name)
@@ -46,11 +49,11 @@ def process_page(url):
     return count
 
 
-url = 'http://wallpaperscraft.com/catalog/textures/1920x1080'
+url = 'https://wallpaperscraft.com/catalog/textures/1920x1080'
 
 if process_page(url) == 0:
     exit()
 
-for page in range(50, 153):
+for page in range(2, 10):
     if process_page(url + '/page' + str(page)) == 0:
         exit()
