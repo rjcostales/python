@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 import tweepy
 
 from keys import API_KEY, API_SECRET, TOKEN_KEY, TOKEN_SECRET

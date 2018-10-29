@@ -31,28 +31,26 @@ def process_page(url):
     print(html.status_code)
     soup = BeautifulSoup(html.text, 'html.parser')
 
-    for div in soup.find_all('div', class_='pre_name'):
+    for img in soup.find_all('img', class_='wallpapers__image'):
         count += 1
-        href = div.a['href']
-        name = re.sub(r'.*/', 'macro/', href) + '.jpg'
-        link = re.sub(r'.*/', 'http://wallpaperscraft.com/image/', href) + '_1024x768.jpg'
-        print(link)
+        src = img['src']
+        link = re.sub(r'300x168', '1920x1080', src)
+        name = re.sub(r'.*/', '', link)
         img = get_image(link)
-        sleep(1)
         if img is not None:
-            with open(name, 'wb') as jpg:
+            with open('jpgs/' +name, 'wb') as jpg:
                 jpg.write(img.read())
                 jpg.close()
-    sleep(3)
+            print(name)
+    sleep(1)
     return count
 
 
-url = 'http://wallpaperscraft.com/catalog/macro/1024x768'
+url = 'http://wallpaperscraft.com/catalog/textures/1920x1080'
 
 if process_page(url) == 0:
     exit()
 
-for page in range(2, 100):
-    print(page)
+for page in range(50, 153):
     if process_page(url + '/page' + str(page)) == 0:
         exit()

@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-import time
 
 
 def fibonacci(n):
@@ -10,9 +9,6 @@ def fibonacci(n):
 
 
 if __name__ == "__main__":
-    nn = 40
-    start = time.time()
-    ff = fibonacci(nn)
-    end = time.time()
-    print(ff)
-    print(end - start)
+    n = 40
+    f = fibonacci(n)
+    print(f)

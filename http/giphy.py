@@ -2,7 +2,9 @@ import json
 
 import requests
 
-r = requests.get("http://api.giphy.com/v1/gifs/search?q=puppies&api_key=20ETF5kMibhng2nxxVe5G01NKBx3XUO8")
+API_KEY = "20ETF5kMibhng2nxxVe5G01NKBx3XUO8"
+
+r = requests.get("http://api.giphy.com/v1/gifs/search?q=puppies&api_key=%s" % API_KEY)
 
 print(r.status_code)
 
