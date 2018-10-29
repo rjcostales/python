@@ -1,17 +1,25 @@
 #!/usr/bin/env python
+from urllib.error import HTTPError
 from urllib.request import urlopen
 
 from bs4 import BeautifulSoup
 
-url = 'http://www.raspberrypi.org/downloads/'
-page = urlopen(url)
 
-soup = BeautifulSoup(page, 'html.parser')
+def getTitle(url):
+    try:
+        html = urlopen(url)
+    except HTTPError as e:
+        return None
+    try:
+        bsObj = BeautifulSoup(html.read(), features="html.parser")
+        title = bsObj.body.h1
+    except AttributeError as e:
+        return None
+    return title
 
-print(soup.text)
-print(soup.prettify())
 
-for link in soup.find_all('a', href=True):
-    href = link['href']
-    if href.startswith('http'):
-        print('href =', href)
+title = getTitle("http://www.pythonscraping.com/pages/page1.html")
+if title is None:
+    print("Title could not be found")
+else:
+    print(title)
