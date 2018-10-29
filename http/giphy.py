@@ -4,10 +4,13 @@ import requests
 
 API_KEY = "20ETF5kMibhng2nxxVe5G01NKBx3XUO8"
 
-r = requests.get("http://api.giphy.com/v1/gifs/search?q=puppies&api_key=%s" % API_KEY)
+response = requests.get("http://api.giphy.com/v1/gifs/search?api_key=%s&q=%s" % (API_KEY, "puppies"))
 
-print(r.status_code)
+print(response.status_code)
 
-j = json.loads(r.text)
+text = json.loads(response.text)
 
-print(json.dumps(j["data"][0], indent=2))
+data = text["data"]
+
+for dat in data:
+    print(json.dumps(dat["images"]["preview"]))
