@@ -5,20 +5,20 @@ from urllib.request import urlopen
 from bs4 import BeautifulSoup
 
 
-def getTitle(url):
+def get_title(url):
     try:
         html = urlopen(url)
     except HTTPError as e:
         return None
     try:
-        bsObj = BeautifulSoup(html.read(), features="html.parser")
-        title = bsObj.body.h1
+        soup = BeautifulSoup(html.read(), features="html.parser")
+        title = soup.body.h1
     except AttributeError as e:
         return None
     return title
 
 
-title = getTitle("http://www.pythonscraping.com/pages/page1.html")
+title = get_title("http://www.pythonscraping.com/pages/page1.html")
 if title is None:
     print("Title could not be found")
 else:

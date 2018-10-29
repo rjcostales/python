@@ -2,8 +2,8 @@
 import requests
 from bs4 import BeautifulSoup
 
-url = 'https://www.ultimate-guitar.com/top/top100.htm'
-response = requests.get(url=url, verify=True)
+url = 'https://www.raspberrypi.org/'
+response = requests.get(url=url, verify=False)
 
 page = BeautifulSoup(response.content, 'html.parser')
 
