@@ -41,9 +41,9 @@ headers = {
     'Accept-Encoding': 'gzip,deflate,br',
     'Accept-Language': 'en-US,en'
 }
-url = "https://www.raspberrypi.org"
+url = "https://docs.python.org/3/library/urllib.html"
 req = Request(url, headers=headers)
 site = urlopen(url)
-html = site.read().strip()
+html = site.read()
 print(html)
 parser.feed(html.decode('utf-8'))
