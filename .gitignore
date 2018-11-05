@@ -106,9 +106,6 @@ keys*.py
 app/static/
 app/templates/
 
-# my scratch
-scratch/
-
 # my ignore files
 *.gif
 *.jpg
