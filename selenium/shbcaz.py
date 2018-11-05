@@ -1,7 +1,8 @@
 import time
 
-from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
+
+from selenium import webdriver
 
 
 def move_off(self):

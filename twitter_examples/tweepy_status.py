@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import tweepy
 
-from keys import API_KEY, API_SECRET, TOKEN_KEY, TOKEN_SECRET
+from keys0 import API_KEY, API_SECRET, TOKEN_KEY, TOKEN_SECRET
 
 
 def print_tweet(tweet):

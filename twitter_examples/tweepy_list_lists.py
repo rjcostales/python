@@ -2,7 +2,7 @@
 
 import tweepy
 
-from keys import ACCOUNT, API_KEY, API_SECRET, TOKEN_KEY, TOKEN_SECRET
+from keys1 import ACCOUNT, API_KEY, API_SECRET, TOKEN_KEY, TOKEN_SECRET
 
 
 def print_user(user):

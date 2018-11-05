@@ -14,6 +14,7 @@ import time
 import unicodedata
 
 import six
+from pip._vendor.distlib.compat import raw_input
 
 if sys.version.startswith('2'):
     input = raw_input  # noqa: E501,F821; pylint: disable=redefined-builtin,undefined-variable,useless-suppression
@@ -176,8 +177,8 @@ def upload(dbx, fullname, folder, subfolder, name, overwrite=False):
     while '//' in path:
         path = path.replace('//', '/')
     mode = (dropbox.files.WriteMode.overwrite
-    if overwrite
-    else dropbox.files.WriteMode.add)
+            if overwrite
+            else dropbox.files.WriteMode.add)
     mtime = os.path.getmtime(fullname)
     with open(fullname, 'rb') as f:
         data = f.read()

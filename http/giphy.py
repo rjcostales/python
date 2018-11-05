@@ -1,4 +1,5 @@
 import json
+
 import requests
 
 API_KEY = "20ETF5kMibhng2nxxVe5G01NKBx3XUO8"

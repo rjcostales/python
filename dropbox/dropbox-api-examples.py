@@ -2,6 +2,7 @@ import sys
 
 import dropbox
 from dropbox.exceptions import AuthError
+
 from keys import TOKEN
 
 if __name__ == '__main__':
