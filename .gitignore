@@ -12,8 +12,8 @@ __pycache__/
 # virtualenv
 venv
 
-# *.tsv
-# *.txt
+*.tsv
+*.txt
 
 # my ignore files
 *.gif
