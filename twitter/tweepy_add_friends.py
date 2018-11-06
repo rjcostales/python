@@ -8,10 +8,10 @@ auth = tweepy.OAuthHandler(API_KEY, API_SECRET)
 auth.set_access_token(TOKEN_KEY, TOKEN_SECRET)
 api = tweepy.API(auth)
 
-f = open('game.txt')
+f = open('friends.txt')
 for l in f:
     id = l[:20].strip()
     screen_name = l[20:40].strip()
     name = l[40:].strip()
     print(id, screen_name, name)
-    api.create_friendship(id=id)
+    # api.create_friendship(id=id)
