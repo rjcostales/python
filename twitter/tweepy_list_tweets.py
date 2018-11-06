@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import tweepy
 
-from keys1 import API_KEY, API_SECRET, TOKEN_KEY, TOKEN_SECRET, ACCOUNT
+from keys0 import API_KEY, API_SECRET, TOKEN_KEY, TOKEN_SECRET, ACCOUNT
 
 auth = tweepy.OAuthHandler(API_KEY, API_SECRET)
 auth.set_access_token(TOKEN_KEY, TOKEN_SECRET)
