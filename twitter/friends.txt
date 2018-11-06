@@ -1,0 +1,170 @@
+10350               Veronica            Veronica Belmont
+783214              Twitter             Twitter
+809273              Oracle              Oracle
+1118451             make                Make:
+1578141             makerfaire          Maker Faire
+1688461             hak5darren          Darren Kitchen
+2425151             facebook            Facebook
+2480951             ubuntu              Ubuntu
+2525131             Revision3           Revision3
+2892261             Hak5                Hak5
+6253282             TwitterAPI          Twitter API
+7144422             lifehacker          Lifehacker
+9475182             pycon               PyCon
+10228272            YouTube             YouTube
+11348282            NASA                NASA
+13334762            github              GitHub
+13837292            evernote            Evernote
+14146389            jetbrains           JetBrains
+14174572            jupitersignal       Jupiter Broadcasting
+14203895            Snubs               Shannon Morse
+14482447            tekthingshow        TekThing
+14607140            hackaday            hackaday
+14613048            coreoslinux         CoreOS
+14647570            sciam               Scientific American
+14662473            fsf                 Free Software Fndn.
+14706299            linuxfoundation     The Linux Foundation
+14924965            defcon              DEF CON
+15269977            mkyong              mkyong
+15515656            chloebennet         Chloe Bennet
+15687962            Marvel              Marvel Entertainment
+15752204            archlinux           archlinux
+15804774            gvanrossum          Guido van Rossum
+15983724            vimtips             vimtips
+16222584            DancingABC          Dancing with the Stars
+16786977            Comic_Con           San Diego Comic-Con
+17159092            ActiveState         ActiveState
+17783001            NixiePixel          Nixie
+17877351            sparkfun            SparkFun Electronics
+18196217            Linux_Kernel        Linux_Kernel
+19611483            usairforce          U.S. Air Force
+20106852            starwars            Star Wars
+20536157            Google              Google
+20664366            Linux_Mint          Linux Mint
+20731304            adafruit            adafruit industries
+21013483            mintcast            mintCast
+22021097            makerbot            MakerBot
+22083910            TheCW               CW Network
+22529702            italiaricci         Italia Ricci
+24031670            rubymine            JetBrains RubyMine
+24160034            intellijidea        IntelliJ IDEA
+24870482            rjcostales          Jesse Costales
+24923100            MakerShed           Maker Shed
+29283877            SharnaBurgess       Sharna Burgess
+31353077            NathanFillion       Nathan Fillion
+31577674            YonhapNews          Yonhap News Agency
+32468665            googledrive         Google Drive
+32669486            bertcat64           Bert Verstraete
+33727504            AstroPython         Astronomical Python
+35873420            ofctimallen         Tim Allen
+38267947            googlecalendar      Google Calendar
+38679388            gmail               Gmail
+40283581            2600                Vote Tomorrow!
+41712825            StarTalkRadio       StarTalk
+43808848            kalilinux           Kali Linux
+44196397            elonmusk            Elon Musk
+45985448            carlychaikin        Carly Chaikin
+46377455            ubuntucloud         Ubuntu Cloud
+48024842            ArchLinuxARM        Arch Linux ARM
+48785884            clarkgregg          Clark Gregg
+49423975            linuxtoday          Linux Today
+52146755            MythBusters         MythBusters
+56505125            googlechrome        Google Chrome
+61083773            MingNa              Ming-Na Wen
+63873759            ThePSF              Python Software
+66619464            hak5feed            hak5feed
+66780587            awscloud            Amazon Web Services
+74625838            phildev_org         PhilDev
+80911508            sebkinne            Sebastian Kinne
+91333167            climagic            Command Line Magic
+92367751            jessicaalba         Jessica Alba
+93473293            RegexTip            Regular Expression
+93711247            AndroidDev          Android Developers
+107032314           pycharm             JetBrains PyCharm
+110009988           beagleboardorg      BeagleBoard.org
+111551994           LinuxUserMag        Linux User & Developer
+125485258           java                Java
+150820027           javacodegeeks       Java Code Geeks
+157844484           Mr_Protocol         Mr-Protocol
+178812809           IAMLenaHeadey       lena headey
+180463340           GameOfThrones       Game Of Thrones
+203209274           OpenJDK             OpenJDK
+220145170           CompSciFact         Computer Science
+237670274           bbcdoctorwho        Doctor Who Official
+250669155           ARCYBER             Army Cyber Command
+252352269           DesertPy            DesertPy
+254791849           SciPyTip            Scientific Python
+259392555           RealKiefer          Kiefer Sutherland
+266400754           arduino             Arduino
+279390084           YourAnonNews        Anonymous
+289435235           LastManStanding     Last Man Standing
+293791877           SigFigInsider       SigFig
+300835864           PersonInterest      Person Of Interest
+302666251           Raspberry_Pi        Raspberry Pi
+342328462           dpanabaker          Danielle Panabaker
+368699637           Hak5Gear            Hak5Gear
+382267114           Android             Android
+390167291           gitlab              GitLab
+393621632           numberphile         Numberphile
+393852070           Avengers            The Avengers
+393987775           Lil_Henstridge      Elizabeth Henstridge
+396168662           StarrWisniewski     Starr Wisniewski
+396238794           CodeWisdom          Programming Wisdom
+415963755           HackerCons          Hacker Cons
+416093945           Sojourner_nz        Timothy Rose
+449237769           ChristianSlater     Christian Slater
+457033547           digitalocean        DigitalOcean
+550247610           TheMagPi            The MagPi magazine
+552121630           karengillan         Karen Gillan
+586671909           VineCreators        Vine Creators
+596230846           lindsayarnold       Lindsay Arnold
+596261273           WitneyCarson        Witney Carson
+602827049           pyconph             PyCon Philippines
+632769072           mainframed767       Soldier of FORTRAN
+749952350           TheGoogleFactz      Excuse The Puns
+763440894           ItsRamiMalek        Rami Malek
+770120310           DuckDynastyAE       Duck Dynasty
+1112465706          AgentsofSHIELD      Agents of SHIELD
+1128461923          FreemaOfficial      Freema Agyeman
+1137161258          billiepiper         Billie Piper
+1138959692          Docker              Docker
+1198537832          coreos              CoreOS, Inc.
+1244325504          CW_Arrow            Arrow
+1268508296          NatSecGeek          Emma Best in Lost Vegas (ᴜ//ғᴏᴜᴏ) 🏳️‍🌈
+1283041062          pythonph            PythonPH
+1319554081          Peter_Dinklage      Peter Dinklage
+1345393938          emiliaclarke        Emilia Clarke
+1473686120          Hacksterio          Hackster.io
+1518709092          56notions           Dr. Timothy Rose
+1533190375          CombatMonsters      Combat Monsters
+1606588254          abt_programming     About Programming
+1969444056          latenightlinux      Late Night Linux
+2151264666          PortiaDd            Portia Doubleday
+2154165980          jamesjudyjones      Judy Jones
+2168414372          Kit_Haringtcn       Kit Harington
+2178738720          StreetOutlaws       Street Outlaws
+2180163722          Daredevil           Daredevil
+2180168234          LukeCage            Luke Cage
+2180170945          JessicaJones        Jessica Jones
+2180171528          MarvelIronFist      Iron Fist
+2248872301          NSAGov              NSA/CSS
+2282671736          CW_TheFlash         The Flash
+2359926157          CIA                 CIA
+2397872018          ArmyCyberInst       Army Cyber Institute
+2668989936          clion_ide           JetBrains CLion IDE
+2693104332          MasteringVim        Mastering Vim
+2850110073          JetBrains_Edu       Educational Products
+2883603996          CostalesHolly       Holly Costales
+2905440476          amazonecho          Amazon Echo
+2916305152          Snowden             Edward Snowden
+2918200448          aud_anderson        Audrey Anderson
+3066551830          whoismrrobot        Mr. Robot
+3239580180          ZephaRita           Heather
+3241064373          TheCW_Legends       Legends of Tomorrow
+3257254063          PentestwithHak5     Hak5 Red Team
+3282859598          TwitterVideo        Twitter Video
+3415800789          SylvetteOrtiz       Sylvette Ortiz
+4872438682          StreetOutlawsNO     Street Outlaws: NOLA
+706864165143511041  CProgram_app        C programming
+727603401933135873  ABCDesignated       Designated Survivor
+742155114488565760  CodingAZ            White Hat Operations
