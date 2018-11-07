@@ -3,7 +3,7 @@
 
 import sqlite3
 
-connection = sqlite3.connect('scratch.db')
+connection = sqlite3.connect('sandbox.db')
 
 with connection:
     cur = connection.cursor()

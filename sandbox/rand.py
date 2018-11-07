@@ -13,8 +13,7 @@ try:
 except:
     b = 1.0
 
-print
-a, b
+print a, b
 
 r = random
 tot = 0.0
@@ -22,9 +21,7 @@ rnd = 0.0
 
 for i in range(100):
     rnd = r.gauss(a, b)
-    print
-    '%1.4f' % r.gauss(a, b)
+    print '%1.4f' % r.gauss(a, b)
     tot += rnd
 
-print
-'rnd = ', rnd
+print 'rnd = ', rnd

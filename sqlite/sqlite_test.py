@@ -7,7 +7,7 @@ import sys
 connection = None
 
 try:
-    connection = sqlite3.connect('scratch.db')
+    connection = sqlite3.connect('sandbox.db')
 
     cur = connection.cursor()
     cur.execute('SELECT SQLITE_VERSION()')

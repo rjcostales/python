@@ -18,74 +18,50 @@ def reverse(a, n):
 
 array = [1, 2, 3, 4]
 
-print
-array
+print array
 reverse(array, 2)
-print
-array
+print array
 reverse(array, 3)
-print
-array
+print array
 reverse(array, 2)
-print
-array
+print array
 reverse(array, 3)
-print
-array
+print array
 reverse(array, 2)
-print
-array
+print array
 reverse(array, 4)
-print
-array
+print array
 reverse(array, 2)
-print
-array
+print array
 reverse(array, 3)
-print
-array
+print array
 reverse(array, 2)
-print
-array
+print array
 reverse(array, 3)
-print
-array
+print array
 reverse(array, 2)
-print
-array
+print array
 reverse(array, 4)
-print
-array
+print array
 reverse(array, 2)
-print
-array
+print array
 reverse(array, 3)
-print
-array
+print array
 reverse(array, 2)
-print
-array
+print array
 reverse(array, 3)
-print
-array
+print array
 reverse(array, 2)
-print
-array
+print array
 reverse(array, 4)
-print
-array
+print array
 reverse(array, 2)
-print
-array
+print array
 reverse(array, 3)
-print
-array
+print array
 reverse(array, 2)
-print
-array
+print array
 reverse(array, 3)
-print
-array
+print array
 reverse(array, 2)
-print
-array
+print array

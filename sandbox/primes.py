@@ -17,6 +17,5 @@ for n in range(4):
             test *= (i % p)
         if test:
             lastprime = i
-            print
-            i
+            print i
             primes.append(i)
