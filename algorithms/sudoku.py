@@ -111,7 +111,7 @@ def solve(arr):
     return False
 
 
-# Driver main function to scratch above functions
+# Driver main function to sandbox above functions
 if __name__ == "__main__":
 
     # creating a 2D array for the grid

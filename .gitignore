@@ -20,3 +20,5 @@ venv
 *.jpg
 *.png
 
+hacking/
+sandbox/

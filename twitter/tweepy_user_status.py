@@ -26,7 +26,7 @@ def user_timeline(user):
                 return
 
 
-from keys0 import API_KEY, API_SECRET, TOKEN_KEY, TOKEN_SECRET
+from hacking.keys0 import API_KEY, API_SECRET, TOKEN_KEY, TOKEN_SECRET
 
 auth = tweepy.OAuthHandler(API_KEY, API_SECRET)
 auth.set_access_token(TOKEN_KEY, TOKEN_SECRET)
