@@ -1,11 +1,6 @@
 #!/usr/bin/env python
 
-from math import acos
-from math import atan2
-from math import cos
-from math import modf
-from math import pi
-from math import sin
+from math import acos, atan2, cos, modf, pi, sin
 
 # from math import sqrt
 

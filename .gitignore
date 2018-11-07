@@ -1,17 +1,20 @@
+# Mac
 .DS_Store
 
+# PyCharm
 .idea/
 
+# Python
 __pycache__/
 
 # C extensions
 *.so
 
-*.log
-
 # virtualenv
 venv
 
+# no static
+*.log
 *.tsv
 *.txt
 
@@ -19,5 +22,6 @@ venv
 *.gif
 *.jpg
 *.png
+
 
 sandbox/

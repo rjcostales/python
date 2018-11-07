@@ -27,7 +27,7 @@ def permute(r, n):
 
     else:
 
-        print(i, r )
+        print(i, r)
 
 
 array = [1, 2, 3, 4]
