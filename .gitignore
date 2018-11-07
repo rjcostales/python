@@ -18,6 +18,9 @@ venv
 *.tsv
 *.txt
 
+# compiled
+*.pyc
+
 # my ignore files
 *.gif
 *.jpg
